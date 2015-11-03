@@ -1,11 +1,18 @@
 #include "Carro.h"
+#include <iostream>
 
-Carro::Carro()
-{
-    //ctor
-}
+ostream& operator<<(ostream& c, Carro& car) {
+	list<int>::iterator iter;
 
-Carro::~Carro()
-{
-    //dtor
+	s << "[";
+	iter = lst.valores.begin();
+	if (iter != lst.valores.end() ) {
+		s << *iter;
+		iter++;
+	}
+	for(  ; iter != lst.valores.end() ; iter++ )
+		s << ", " << *iter ;
+	s << "]";
+
+	return s;
 }
