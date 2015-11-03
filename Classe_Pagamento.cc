@@ -2,11 +2,12 @@
 
 class Pagamento {
 
-private: void pagamento;
+private: float saldo;
 
-public: float saldo();
-	void mostrar();
-	void saldo_suficiente();
+public: void pagamento();
+	void consulta();
+	void add_saldo();
+	
 
 };
 
@@ -15,4 +16,13 @@ Pagamento::Pagamento()
 	saldo=s;
 }
 
+void pagamento::pagamento()
+{
 
+}
+
+void Pagamento::add_saldo()
+{
+saldo = saldo ++
+
+}
