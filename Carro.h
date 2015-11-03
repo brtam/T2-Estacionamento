@@ -2,10 +2,13 @@
 #define CARRO_H
 
 #include <iostream>
+#include <string>
+#include <vector>
 
-class Carro
-{
+class Carro {
+    friend ostream& operator<<(ostream& c, Carro& car);
     private:
+        vector<int> veiculos;
         string placa;
         string modelo;
         string cor;
@@ -16,7 +19,6 @@ class Carro
     public:
         Carro(string placa, string modelo, string cor, int h_in, int m_in, int s_in, int h_out, int m_out, int s_out);
         void getInfo(string placa);
-
 };
 
 #endif // CARRO_H
