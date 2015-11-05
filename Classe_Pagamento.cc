@@ -2,27 +2,21 @@
 
 class Pagamento {
 
-private: float saldo;
+private:
+    bool pago;
 
-public: void pagamento();
-	void consulta();
-	void add_saldo();
-	
+public:
+    bool getPago();
 
 };
 
 Pagamento::Pagamento()
 {
-	saldo=s;
+    pago=false;
 }
 
-void pagamento::pagamento()
+void pagamento::getPago()
 {
-
+    return pago;
 }
 
-void Pagamento::add_saldo()
-{
-saldo = saldo ++
-
-}
