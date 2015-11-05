@@ -7,12 +7,13 @@ private:
 
 public:
     bool getPago();
+    pagamento(bool pag);
 
 };
 
-Pagamento::Pagamento()
+Pagamento::Pagamento(bool pag)
 {
-    pago=false;
+    pago=pag;
 }
 
 void pagamento::getPago()
