@@ -4,31 +4,49 @@ using namespace std;
 
 class Vaga
 {
-    private:
-        bool livre; //false (0) or true (1)
-    public:
-        vaga( int f, int o, int c, int d);
-        void vaga();
+private:
+    bool situacao; //false (0) or true (1)
+    int numero;
+//    vector<int> vagas;
+public:
+
+    Vaga(int n);
+    void vaga ();
+    int sit_livre (int s);
+    bool getsituacao();
 //      float contador();
 };
 
-Vaga::vaga( int f, int o, int c, int d);
+Vaga::Vaga(int n)
 {
-        livre = f;
-        ocupado = o;
-        coberto = c;
-        descoberto = d;
+    situacao = 0;
+    numero = n;
+}
+
+int sit_livre (int s)
+{
+    int i;
+    for(i=0; i<=10; i++);
+        s = i;
+    return s;
+
 }
 
 void Vaga::vaga()
 {
     cout << "Vaga livre" << endl;
-        livre = true;
+    situacao = true;
 }
+
+bool Vaga::getsituacao()
+{
+    return situacao;
+}
+
 
 int main()
 {
 
-    cout<<"VAGA"<<endl;
+    //entrada de veículo Vaga ocupada -1 ; saída de veículo Vaga +1 livre; 	limite vagas 10.
 
 }
