@@ -2,17 +2,23 @@
 #include <iostream>
 
 ostream& operator<<(ostream& c, Carro& car) {
-	list<int>::iterator iter;
+	c << "Placa: " << car.placa << "  Modelo: " << car.modelo << "  Cor: " << car.cor <<
+	"  Entrada: " << car.h_in << ":" << car.m_in << ":" << car.s_in
+	"  Saída: " << car.h_out << ":" << car.m_out << ":" << car.s_out
+	"  Preferencial: " << car.preferencial  << endl;
+	return c;
+}
 
-	s << "[";
-	iter = lst.valores.begin();
-	if (iter != lst.valores.end() ) {
-		s << *iter;
-		iter++;
-	}
-	for(  ; iter != lst.valores.end() ; iter++ )
-		s << ", " << *iter ;
-	s << "]";
-
-	return s;
+Carro::Carro(string p, string m, string c, int hIN, int mIN, int sIN, int hOUT, int mOUT, int sOUT, bool pref)
+{
+    placa = p;
+    modelo = m;
+    cor = c;
+    h_in = hIN;
+    m_in = mIN;
+    s_in = sIN;
+    h_out = hOUT;
+    m_out = mOUT;
+    s_out = sOUT;
+    preferencial = pref;
 }
