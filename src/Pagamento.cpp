@@ -7,7 +7,7 @@ private:
 
 public:
     bool getPago();
-    pagamento(bool pag);
+    Pagamento(bool pag);
 
 };
 
@@ -16,7 +16,7 @@ Pagamento::Pagamento(bool pag)
     pago=pag;
 }
 
-void pagamento::getPago()
+bool Pagamento::getPago()
 {
     return pago;
 }

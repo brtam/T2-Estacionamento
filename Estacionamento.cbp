@@ -37,6 +37,8 @@
 		<Unit filename="include/Carro.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Carro.cpp" />
+		<Unit filename="src/Pagamento.cpp" />
+		<Unit filename="src/Vaga.cpp" />
 		<Extensions>
 			<envvars />
 			<code_completion />

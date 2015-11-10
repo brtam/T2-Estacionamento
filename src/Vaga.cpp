@@ -44,17 +44,17 @@ bool Vaga::getsituacao()
 }
 
 
-int main()
+/*int main()
 {
     Vaga vaga1(1), vaga2(1);
 
     vaga1.livre();
 
-        cout << "vaga livre" << vaga1.getsituacao() << endl;   
-         
+        cout << "vaga livre" << vaga1.getsituacao() << endl;
+
         cout << "vaga livre" << vaga2.getsituacao() << endl;
-    
+
 
     //entrada de veículo Vaga ocupada -1 ; saída de veículo Vaga +1 livre; 	limite vagas 10.
 
-}
+}*/

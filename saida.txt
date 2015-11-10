@@ -1,0 +1,9 @@
+Ticket no: 0
+Placa: IRX6296  Modelo: Palio  Cor: Verde  Entrada: 12:20:50  Saída: 20:50:29  Preferencial: 0
+
+Ticket no: 0
+Placa: IJP8907  Modelo: Kombi  Cor: Preta  Entrada: 10:12:40  Saída: 20:50:29  Preferencial: 0
+
+Ticket no: 0
+Placa: IJP8907  Modelo: Kombi  Cor: Preta  Entrada: 10:12:40  Saída: 20:50:29  Preferencial: 0
+
