@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1447194125 source:/home/PORTOALEGRE/96105641/Downloads/Estacionamento/main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	"Carro.h"
+
+1447193722 /home/PORTOALEGRE/96105641/Downloads/Estacionamento/include/Carro.h
+	<iostream>
+	<string>
+
+1447194143 source:/home/PORTOALEGRE/96105641/Downloads/Estacionamento/src/Carro.cpp
+	"Carro.h"
+	<iostream>
+

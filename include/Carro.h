@@ -4,13 +4,16 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 class Carro {
     friend ostream& operator<<(ostream& c, Carro& car);
+
     private:
         string placa;
         string modelo;
         string cor;
-        int h_in, m_in, s_in, h_out, m_out, s_out,
+        int h_in, m_in, s_in, h_out, m_out, s_out;
         bool preferencial;   ///Idoso, Cadeirante....
 
     public:

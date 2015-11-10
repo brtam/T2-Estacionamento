@@ -1,10 +1,12 @@
 #include "Carro.h"
 #include <iostream>
 
+using namespace std;
+
 ostream& operator<<(ostream& c, Carro& car) {
 	c << "Placa: " << car.placa << "  Modelo: " << car.modelo << "  Cor: " << car.cor <<
-	"  Entrada: " << car.h_in << ":" << car.m_in << ":" << car.s_in
-	"  Saída: " << car.h_out << ":" << car.m_out << ":" << car.s_out
+	"  Entrada: " << car.h_in << ":" << car.m_in << ":" << car.s_in <<
+	"  Saída: " << car.h_out << ":" << car.m_out << ":" << car.s_out <<
 	"  Preferencial: " << car.preferencial  << endl;
 	return c;
 }
