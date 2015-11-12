@@ -7,7 +7,7 @@
 using namespace std;
 
 class Carro {
-    friend ostream& operator<<(ostream& c, Carro& car);
+    friend ostream& operator<<(ostream&, const Carro&);
 
     private:
         string placa;

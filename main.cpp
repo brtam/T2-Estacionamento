@@ -11,9 +11,12 @@ using namespace std;
 
 int main()
 {
+    vector<Carro> carro;
+    vector<Carro>::iterator iter;
+
     cout << "######################################" << endl;
-    cout << "Programa de Controle de Estacionamento" << endl << endl;
-    cout << "######################################" << endl;
+    cout << "Programa de Controle de Estacionamento" << endl;
+    cout << "######################################" << endl << endl;
 
     ifstream input;
     ofstream output;
@@ -31,13 +34,11 @@ int main()
 	bool pag, pref;
 
     do{
+        input >> p >> m >> c >> h_in >> m_in >> s_in >> h_out >> m_out >> s_out >> pag >> pref;
         if(!input.fail()) {
-            ticket = ticket++;
-			input >> p >> m >> c >> h_in >> m_in >> s_in >> h_out >> m_out >> s_out >> pag >> pref;
-            cout << p << " " << m << " " << c << " " << h_in << " " << m_in << " " << s_in << " " << h_out << " " << m_out << " " << s_out << " " << pag << " " << pref << endl;
-            cout << "Ticket no: " << ticket << endl;
-
-			Carro car(p, m, c, h_in, m_in, s_in, h_out, m_out, s_out, pref);
+            ticket++;
+            Carro car(p, m, c, h_in, m_in, s_in, h_out, m_out, s_out, pref);
+			carro.push_back(car);
 
             output << "Ticket no: " << ticket << endl;
             output << car << endl;
@@ -49,7 +50,7 @@ int main()
 		exit(1);
 	}
 
-	cout << "Fechando o arquivo..." << endl;
+	cout << "Fechando o arquivos..." << endl;
 	input.close();
 	output.close();
 
