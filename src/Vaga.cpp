@@ -1,4 +1,5 @@
-#include<iostream>
+#include <iostream>
+#include "Vaga.h"
 
 using namespace std;
 

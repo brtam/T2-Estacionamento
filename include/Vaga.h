@@ -8,12 +8,11 @@ using namespace std;
 class Vaga
 {
 private:
-
-    void ocupavaga();
-    void ocupapreferencial();
+    int vaga, vagap;
 
 public:
-    
+    void ocupavaga();
+    void ocupapreferencial();
 };
 
 #endif // VAGA_H

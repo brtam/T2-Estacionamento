@@ -4,8 +4,8 @@
 #include <vector>
 
 #include "Carro.h"
-//#include "Pagamento.h"
-//#include "Vaga.h"
+#include "Pagamento.h"
+#include "Vaga.h"
 
 using namespace std;
 
@@ -37,7 +37,7 @@ int main()
         input >> p >> m >> c >> h_in >> m_in >> s_in >> h_out >> m_out >> s_out >> pag >> pref;
         if(!input.fail()) {
             ticket++;
-            Carro car(p, m, c, h_in, m_in, s_in, h_out, m_out, s_out, pref);
+            Carro car(p, m, c, h_in, m_in, s_in, h_out, m_out, s_out, pag, pref);
 			carro.push_back(car);
 
             output << "Ticket no: " << ticket << endl;
