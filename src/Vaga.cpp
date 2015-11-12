@@ -5,64 +5,24 @@ using namespace std;
 class Vaga
 {
 private:
-    bool situacao; //false (0) or true (1)
-    int numero;
-//    vector<int> vagas;
-public:
 
-    Vaga(int n);
-    void livre();
-    int sit_livre(int s);
-    bool getsituacao();
-//      float contador();
+    void ocupavaga();
+    void ocupapreferencial();
+
+public:
+    
 };
 
-Vaga::Vaga(int n)
+void Vaga::ocupavaga()
 {
-    situacao = 0;
-    numero = n;
+    vaga-- ;   
 }
 
-int sit_livre (int s)
+void Vaga::ocupapreferencial()
 {
-    int i;
-    for(i=0; i<10; i++);
-        s = i;
-    return s;
-
-}
-
-void Vaga::livre()
-{
-    cout << "Vaga livre" << endl;
-    situacao = true;
-}
-
-bool Vaga::getsituacao()
-{
-    return situacao;
-}
-
-
-/*int main()
-{
-    Vaga vaga1(1);
-
-    vaga1.livre();
-<<<<<<< HEAD
-
-        cout << "vaga livre" << vaga1.getsituacao() << endl;
-
-        cout << "vaga livre" << vaga2.getsituacao() << endl;
-
-=======
-    if ()
-        cout << "vaga livre" << vaga1.getsituacao() << endl;   
+    int p;
+    if(p=1)
+        vagap--;
     else
-        cout << "vaga ocupada" << vaga1.getsituacao() << endl;
-    
->>>>>>> a40f22a29daab102fe7c83ff9dc3763f3cae0ef0
-
-    //entrada de veículo Vaga ocupada -1 ; saída de veículo Vaga +1 livre; 	limite vagas 10.
-
-}*/
+       vaga--;     
+}
