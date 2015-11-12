@@ -14,11 +14,12 @@
 	"Carro.h"
 	<iostream>
 
-1447365822 source:/home/PORTOALEGRE/96105641/T2-Estacionamento/src/Carro.cpp
+1447366530 source:/home/PORTOALEGRE/96105641/T2-Estacionamento/src/Carro.cpp
 	"Carro.h"
 	<iostream>
+	<string>
 
-1447366119 /home/PORTOALEGRE/96105641/T2-Estacionamento/include/Carro.h
+1447366720 /home/PORTOALEGRE/96105641/T2-Estacionamento/include/Carro.h
 	<iostream>
 	<string>
 

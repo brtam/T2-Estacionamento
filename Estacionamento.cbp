@@ -35,6 +35,8 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Carro.h" />
+		<Unit filename="include/Pagamento.h" />
+		<Unit filename="include/Vaga.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Carro.cpp" />
 		<Unit filename="src/Pagamento.cpp" />

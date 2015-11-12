@@ -1,15 +1,6 @@
-#include <iostream>
+#include<iostream>
 
-class Pagamento {
-
-private:
-    bool pago;
-
-public:
-    bool getPago();
-    Pagamento(bool pag);
-
-};
+using namespace std;
 
 Pagamento::Pagamento(bool pag)
 {
