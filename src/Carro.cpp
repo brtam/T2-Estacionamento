@@ -8,11 +8,11 @@ ostream& operator<<(ostream& v, const Carro& car) {
 	v << "Placa: " << car.placa << "  Modelo: " << car.modelo << "  Cor: " << car.cor <<
 	"  Entrada: " << car.h_in << ":" << car.m_in << ":" << car.s_in <<
 	"  Saída: " << car.h_out << ":" << car.m_out << ":" << car.s_out <<
-	"Pago: " << car.pag << " Preferencial: " << car.preferencial  << endl;
+	" Pago: " << car.pag << " Preferencial: " << car.preferencial  << endl;
 	return v;
 }
 
-Carro::Carro(string p, string m, string c, int hIN, int mIN, int sIN, int hOUT, int mOUT, int sOUT, bool pag, bool pref)
+Carro::Carro(string p, string m, string c, int hIN, int mIN, int sIN, int hOUT, int mOUT, int sOUT, bool Spag, bool Spref)
 {
     placa = p;
     modelo = m;
@@ -23,5 +23,6 @@ Carro::Carro(string p, string m, string c, int hIN, int mIN, int sIN, int hOUT, 
     h_out = hOUT;
     m_out = mOUT;
     s_out = sOUT;
-    preferencial = pref;
+    pag = Spag;
+    preferencial = Spref;
 }

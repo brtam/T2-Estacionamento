@@ -1,21 +1,35 @@
 Ticket no: 1
-Placa: IRX6296  Modelo: Palio  Cor: Verde  Entrada: 12:20:50  Saída: 20:50:29Pago: 48 Preferencial: 0
+Placa: IRX6296  Modelo: Palio  Cor: Verde  Entrada: 12:20:50  Saída: 20:50:29 Pago: 1 Preferencial: 0
+Vagas Normais Disponíveis: 9
+Vagas Pref. Disponíveis  : 3
 
 Ticket no: 2
-Placa: IJP8907  Modelo: Kombi  Cor: Preta  Entrada: 10:12:40  Saída: 20:50:29Pago: 48 Preferencial: 0
+Placa: IJP8907  Modelo: Kombi  Cor: Preta  Entrada: 10:12:40  Saída: 20:50:29 Pago: 1 Preferencial: 0
+Vagas Normais Disponíveis: 8
+Vagas Pref. Disponíveis  : 3
 
 Ticket no: 3
-Placa: ICB2259  Modelo: Corsa  Cor: Azul  Entrada: 11:15:35  Saída: 0:0:0Pago: 48 Preferencial: 1
+Placa: ICB2259  Modelo: Corsa  Cor: Azul  Entrada: 11:15:35  Saída: 0:0:0 Pago: 0 Preferencial: 1
+Vagas Normais Disponíveis: 8
+Vagas Pref. Disponíveis  : 2
 
 Ticket no: 4
-Placa: ICS0852  Modelo: Kombi  Cor: Verde  Entrada: 10:12:40  Saída: 0:0:0Pago: 48 Preferencial: 1
+Placa: ICS0852  Modelo: Kombi  Cor: Verde  Entrada: 10:12:40  Saída: 0:0:0 Pago: 0 Preferencial: 1
+Vagas Normais Disponíveis: 8
+Vagas Pref. Disponíveis  : 1
 
 Ticket no: 5
-Placa: IHP6697  Modelo: Vectra  Cor: Preto  Entrada: 10:12:40  Saída: 0:0:0Pago: 48 Preferencial: 0
+Placa: IHP6697  Modelo: Vectra  Cor: Preto  Entrada: 10:12:40  Saída: 0:0:0 Pago: 0 Preferencial: 0
+Vagas Normais Disponíveis: 7
+Vagas Pref. Disponíveis  : 1
 
 Ticket no: 6
-Placa: IPS6901  Modelo: Gol  Cor: Vermelho  Entrada: 20:30:43  Saída: 23:0:45Pago: 48 Preferencial: 0
+Placa: IPS6901  Modelo: Gol  Cor: Vermelho  Entrada: 20:30:43  Saída: 23:0:45 Pago: 1 Preferencial: 0
+Vagas Normais Disponíveis: 6
+Vagas Pref. Disponíveis  : 1
 
 Ticket no: 7
-Placa: MPD3694  Modelo: Fusca  Cor: Preto  Entrada: 15:55:40  Saída: 17:12:35Pago: 48 Preferencial: 1
+Placa: MPD3694  Modelo: Fusca  Cor: Preto  Entrada: 15:55:40  Saída: 17:12:35 Pago: 1 Preferencial: 1
+Vagas Normais Disponíveis: 6
+Vagas Pref. Disponíveis  : 0
 

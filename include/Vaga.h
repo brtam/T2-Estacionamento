@@ -8,11 +8,16 @@ using namespace std;
 class Vaga
 {
 private:
-    int vaga, vagap;
+    int normais = 10;
+    int preferenciais = 3;
+//    int normais, preferenciais;
+    bool tipo;
 
 public:
-    void ocupavaga();
-    void ocupapreferencial();
+    Vaga();
+    void ocupa(bool tipo);
+    int VagasN();
+    int VagasPref();
 };
 
 #endif // VAGA_H

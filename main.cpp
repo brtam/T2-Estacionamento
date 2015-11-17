@@ -12,7 +12,6 @@ using namespace std;
 int main()
 {
     vector<Carro> carro;
-    vector<Carro>::iterator iter;
 
     cout << "######################################" << endl;
     cout << "Programa de Controle de Estacionamento" << endl;
@@ -33,6 +32,8 @@ int main()
     int h_in, m_in, s_in, h_out, m_out, s_out;
 	bool pag, pref;
 
+    Vaga vaga;
+
     do{
         input >> p >> m >> c >> h_in >> m_in >> s_in >> h_out >> m_out >> s_out >> pag >> pref;
         if(!input.fail()) {
@@ -40,8 +41,13 @@ int main()
             Carro car(p, m, c, h_in, m_in, s_in, h_out, m_out, s_out, pag, pref);
 			carro.push_back(car);
 
+            bool tipo = pref;
+            vaga.ocupa(tipo);
+
             output << "Ticket no: " << ticket << endl;
-            output << car << endl;
+            output << car;
+            output << "Vagas Normais Disponíveis: " << vaga.VagasN() << endl;
+            output << "Vagas Pref. Disponíveis  : " << vaga.VagasPref() << endl << endl;
 		}
 	} while(input.good());
 

@@ -3,16 +3,27 @@
 
 using namespace std;
 
-void Vaga::ocupavaga()
+void Vaga::ocupa(bool tipo)
 {
-    vaga-- ;
+//    cout << tipo << endl;
+    if(tipo == 1)
+        preferenciais--;
+    else
+       normais--;
 }
 
-void Vaga::ocupapreferencial()
+Vaga::Vaga()
 {
-    int p;
-    if(p=1)
-        vagap--;
-    else
-       vaga--;
+//    normais = 10;
+//    preferenciais = 3;
+}
+
+int Vaga::VagasN()
+{
+    return normais;
+}
+
+int Vaga::VagasPref()
+{
+    return preferenciais;
 }
