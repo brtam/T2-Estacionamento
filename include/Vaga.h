@@ -10,7 +10,6 @@ class Vaga
 private:
     int normais = 10;
     int preferenciais = 3;
-//    int normais, preferenciais;
     bool tipo;
 
 public:

@@ -46,6 +46,14 @@ int main()
 
             output << "Ticket no: " << ticket << endl;
             output << car;
+            Pagamento pagamento(pag);
+            if(pagamento.getPago() == 1) {
+                output << "Carro saiu do estacionamento" << endl;
+            }
+            else{
+                output << "Carro encontra-se no estacionamento" << endl;
+
+            }
             output << "Vagas Normais Disponíveis: " << vaga.VagasN() << endl;
             output << "Vagas Pref. Disponíveis  : " << vaga.VagasPref() << endl << endl;
 		}

@@ -11,7 +11,6 @@ private:
 public:
     bool getPago();
     Pagamento(bool pag);
-
 };
 
 #endif // PAGAMENTO_H
